@@ -82,7 +82,7 @@ module.exports = {
                 test: /\.(glb|gltf)$/,
                 loader: 'file-loader',
                 options: {
-                    publicPath: 'dist/models',
+                    publicPath: 'assets/',
                     name: '[name].[ext]'
                }
             },

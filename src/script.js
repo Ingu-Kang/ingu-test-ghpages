@@ -24,7 +24,7 @@ const scene = new THREE.Scene()
  let model;
  
  gltfLoader.load(
-     '/models/exporter.glb',
+     'assets/exporter.glb',
      (gltf) =>
      {
 
